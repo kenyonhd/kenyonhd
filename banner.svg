@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="480" viewBox="0 0 1500 480" role="img" aria-labelledby="title desc">
+  <title id="title">Kenyon Dillard | IT Support, Cybersecurity, Python</title>
+  <desc id="desc">IT Support, Cybersecurity, Python. U.S. Navy Veteran. A navy blue banner with a geometric network design.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="0.7">
+      <stop stop-color="#142e5c"/>
+      <stop offset="0.6" stop-color="#0c1a32"/>
+      <stop offset="1" stop-color="#080f1d"/>
+    </linearGradient>
+    <linearGradient id="accent">
+      <stop stop-color="#4dd8e8"/>
+      <stop offset="1" stop-color="#629bff"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#98c2ff" opacity="0.15"/>
+    </pattern>
+  </defs>
+  <rect width="1500" height="480" rx="24" fill="url(#bg)"/>
+  <rect x="910" width="590" height="480" fill="url(#dots)"/>
+  <path d="M0 0H14V480H0Z" fill="url(#accent)"/>
+  <g fill="none" stroke="#6cafff" stroke-width="1.6" opacity="0.3">
+    <path d="M1065 63L1240 32L1398 119L1365 306L1190 402L1040 300L1065 63Z"/>
+    <path d="M1065 63L1365 306L1240 32L1190 402L1398 119L1040 300L1240 32M1065 63L1190 402M1040 300L1365 306"/>
+    <circle cx="1215" cy="220" r="155"/>
+    <circle cx="1215" cy="220" r="178" stroke-dasharray="3 11"/>
+  </g>
+  <g fill="#70dbe9">
+    <circle cx="1065" cy="63" r="5"/><circle cx="1240" cy="32" r="5"/>
+    <circle cx="1398" cy="119" r="5"/><circle cx="1365" cy="306" r="5"/>
+    <circle cx="1190" cy="402" r="5"/><circle cx="1040" cy="300" r="5"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="85" y="105" font-size="18" font-weight="600" letter-spacing="5" fill="#79dce8">WELCOME TO MY GITHUB</text>
+    <text x="79" y="210" font-size="80" font-weight="700" letter-spacing="-2" fill="#f4f8ff">Kenyon Dillard</text>
+    <rect x="85" y="247" width="78" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="85" y="306" font-size="30" fill="#d0def4">IT Support · Cybersecurity · Python</text>
+    <text x="85" y="379" font-size="22" fill="#93a9c9">U.S. Navy Veteran</text>
+    <text x="85" y="416" font-size="22" fill="#93a9c9">Learning by building.</text>
+  </g>
+</svg>
